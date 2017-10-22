@@ -1,0 +1,350 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	background-image:url(background.jpg);
+	color:#ffff
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-attachment: fixed;
+}
+
+#logo
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 500%;
+	width: 100%;
+	text-align: left;
+}
+
+#logo1
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 240%;
+	width: 100%;
+	text-align: left;
+	color: #eeee
+}
+
+.square
+{
+	width: 50%;
+	float: left;
+}
+
+.box
+{
+    margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #222222;
+	float: left;
+	text-align: center;
+}
+
+.box:hover
+{
+	background-color: #333333;
+}
+
+#kimjestem
+{
+    margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #222222;
+	float: left;
+	text-align: center;
+	cursor:pointer;
+}
+
+#kimjestem:hover
+{
+	background-color: #333333;
+}
+
+#kimjestemtext
+{
+	margin:50px 10px 10px 10px;
+}
+
+#kontakt
+{
+    margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #222222;
+	float: left;
+	text-align: center;
+	cursor:pointer;
+}
+
+#kontakt:hover
+{
+	background-color: #333333;
+}
+
+#kontakttext
+{
+	margin: 175px 10px 10px 75px;
+	font-size: 30px;
+}
+
+#portfolio
+{
+    margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #222222;
+	float: left;
+	text-align: center;
+	cursor:pointer;
+}
+
+#portfolio:hover
+{
+	background-color: #333333;
+}
+
+#portfoliotext
+{
+	margin: 40px 10px 10px 10px;
+	text-align:center;
+	font-size: 30px;
+}
+
+#skills
+{
+    margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #222222;
+	float: left;
+	text-align: center;
+	cursor:pointer;
+}
+
+#skills:hover
+{
+	background-color: #333333;
+}
+
+#skillstext
+{
+	margin: 100px 10px 10px 30px;
+	text-align:left;
+}
+
+.github
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #111111;
+	float: left;
+	text-align: center;
+	cursor:pointer;
+}
+
+.github:hover
+{
+	background-color: #000000;
+}
+
+.linkedin
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #0077B5;
+	float: left;
+}
+
+.linkedin:hover
+{
+	background-color: #0066A4;
+}
+ 
+.wp
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #006699;
+	float: left;
+}
+
+.wp:hover
+{
+	background-color: #005588;
+}
+ 
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #660000;
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #770000;
+}
+
+#tile
+{
+	width: 480px;
+	height: 469px;
+	background-color: #222222;
+	text-align: justify;
+	margin-top: 9px;
+}
+
+.content {
+	height: 250px;
+	width: 470px;
+	margin: 0px 0px 0px 0px;
+	padding-top: 10px;
+	}		
+
+#text
+{
+	height: 250px;
+	width: 470px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 150px;
+}
+
+#frontend
+{
+	float:left;
+}
+
+#statusfrontend
+{
+	background:#D2691E;
+	padding:10px;
+	width:0px;
+	margin: 10px 0px 5px 13px;
+	float:left;
+	border-radius: 25px;
+	text-align:center;
+}
+
+/*#backend
+{
+	margin-left: 10px;
+	float:left;
+}
+
+#statusbackend
+{
+	background:#FF8C00;
+	padding:10px;
+	width:0px;
+	margin: 0px 15px 10px 28px;
+	display:inline-block;
+	border-radius: 25px;
+	text-align:center;
+}
+Turning on backend stage*/
+#framework
+{
+	float:left;
+	margin-left: 10px;
+}
+
+#statusframework
+{
+	background:#778899;
+	padding:10px;
+	width:0px;
+	margin: 0px 15px 10px 13px;
+	float:left;
+	border-radius: 25px;
+	text-align:center;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+
+.social
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float: left;
+}
+
+.social:hover
+{
+	background-color: #3557a2;
+}
+	
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
+}
+a.logolink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*input[type="text"] {
+     background: #444;
+    border: 0 none;
+    color: #d7d7d7;
+    width:50px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+     margin:3px 0px;
+    direction:rtl
+}
+
+input[type="text"]:focus {
+    background:#ccc;
+    color: #6a6f75;
+    width: 120px;    
+    margin:3px 12px;
+    outline: none;
+}
+
+input[type="text"] {
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+ turning on messenger*/
